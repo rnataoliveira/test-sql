@@ -19,3 +19,5 @@ Endereço Comercial:** Rua das Pedras, 100 Conjunto 200. CEP: 01234-­567
 DELETE FROM CustomerAddress WHERE IdCustomer = (SELECT IdCustomer FROM Customer WHERE CpfCnpj = 88877766655);
 DELETE FROM Customer WHERE CpfCnpj = 88877766655;
 ```
+
+[VER QUERY](https://github.com/rnataoliveira/test-sql/blob/master/QuerySQLTeste.sql)
